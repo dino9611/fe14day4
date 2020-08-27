@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+  
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+}
+body{
+    overflow: hidden;
+}
+
+.trapesium{
+
+    width: calc(60% ) ;
+    height: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 100vh solid #EDF2F8;
+    border-right: 150px solid transparent;
+}
+.imagebox{
+    width: calc(40% ) ;
+    height: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border-top: 600px solid transparent;
+}
+.imagebox img {
+    position: relative;
+    background-color: transparent;
+}
+.imagebox img {
+    position: absolute;
+    top: 0;
+    /* right: -100px; */
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
